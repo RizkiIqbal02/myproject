@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    background: aqua;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    min-height: 100vh;
+    overflow: hidden;
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+
+    font-family: 'Quicksand' , sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+
+    display: grid;
+
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+
+    gap: 10px;
+
+    padding: 10px;
+    box-sizing: border-box;
+    position: relative;
+}

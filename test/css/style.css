@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(36, 41, 41); 
+    /* mengubah background */
+}
+
+.judul{
+    text-align: center;
+    /* membuat teks jadi rata tengah */
+    font-size: larger;
+    /* memperbesar ukuran font */
+    font-variant: small-caps;
+    color: yellow;
+}
+.kartu1{
+    position: absolute; 
+    /* mengubah posisi jadi absolut */
+    height: 300px;
+    width: 200px;
+    z-index: 2;
+    /* menentukan view */
+    left: 50px;
+    top: 125px;
+}
+.kartu2{
+    position: absolute;
+    height: 300px;
+    width: 200px;
+    z-index: 1;
+    left: 0px;
+    top: 75px;
+}
+img {
+    width: 200px;
+    /* mengatur lebar */
+    height: 300px;
+    /* mengatur tinggi */
+}
+p {
+    color: white;
+    font-size: large;
+    padding: 10px;
+    /* membuat ruang bernafas (membuat space atas, bawah, kiri, kanan) sebesar 10px */
+    text-align: left;
+}
+.body {
+    text-align: center;
+    background-color: rgb(26, 28, 29);
+    margin-left: 300px;
+    /* menentukan jarak dari div ke arah kiri */
+    width: auto;
+    /* mengatur lebar */
+    border: solid;
+    /* membuat border */
+}
+.bu {
+    text-align: center;
+    /* teks rata tengah */
+}

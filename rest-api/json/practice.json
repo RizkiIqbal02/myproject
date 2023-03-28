@@ -1,0 +1,27 @@
+[
+  {
+    "nama": "Sullivan",
+    "umur": 20,
+    "nim": "21051113",
+    "lulus": false,
+    "hobby": ["ngoding", "ngoprek", "nge game", "musikan"],
+
+    "pembimbing": {
+      "pembimbing1": "pak farhan",
+      "pembimbing2": "kang bahar"
+    }
+  },
+
+  {
+    "nama": "Iqbal",
+    "umur": 20,
+    "nim": "21051113",
+    "lulus": false,
+    "hobby": ["ngoding", "ngoprek", "nge game", "musikan"],
+
+    "pembimbing": {
+      "pembimbing1": "pak farhan",
+      "pembimbing2": "kang bahar"
+    }
+  }
+]

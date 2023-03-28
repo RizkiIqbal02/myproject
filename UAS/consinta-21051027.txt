@@ -1,0 +1,9 @@
+b. Jarak terpendek yang dapat ditempuh dari Cibeureum ke Gunung Parang adalah melalui rute Cibeureum --> Citamiang --> Cikole --> Gunung Parang, sejauh 13 km.
+
+c. Ada dua cara untuk sampai ke Gunung Parang dari Cibeureum tanpa melewati kecamatan yang sama, yaitu melalui rute 
+1. Cibeureum --> Citamiang --> Cikole --> Gunung Parang 
+2. Cibeureum --> Baros --> Cikole --> Gunung Parang
+3. Cibeureum --> Cikole --> Baros --> Gunung Parang
+4. Cibeureum --> Citamiang --> Cikole --> Baros --> Gunung Parang
+5. Cibeureum --> Cikole --> Gunung Parang
+6. Cibeureum --> Baros --> Gunung Parang

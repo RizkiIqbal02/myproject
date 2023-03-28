@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+p{
+    color: white;
+}
+div.kerangka{
+    border-style: solid;
+    width: auto;
+    height: 1300px;
+}
+div.isi{
+    margin: auto;
+    width: 1000px;
+    height: 1000px;
+}
+div.bariskiri{
+    float: left;
+    width: 350px;
+    height: 800px;
+}
+div.bariskanan{
+    float: left;
+    margin-left: 20px;
+    width: 618px;
+    height: 1000px;
+}
+div.bungkus{
+    float: left;
+    width: 350px;
+    height: 600px;
+}
+div.kartu1{
+    background-color: rgb(26, 28, 29);
+    border-radius: 3%;
+    float: left;
+    width: 350px;
+    height: 450px;
+}
+div.kartu2{
+    background-color: rgb(26, 28, 29);
+    border-style: solid;
+    border-radius: 3%;
+    color: rgb(26, 26, 27);
+    float: left;
+    width: 345px;
+    height: 300px;
+}
+img.pp{
+    border-radius: 100%;
+}
+
+div.bio{
+    background-color: rgb(26, 28, 29);
+    border-radius: 3%;
+    width: 618px;
+    height: 350px;
+}
+h2{
+    color: white;
+}
+h1{
+    color: black;
+}
+h2.bio{
+    color: white;
+}
+div.foto{
+    background-color: rgb(26, 28, 29);
+    margin-left: 10px;
+    float: left;
+    border-style: solid;
+    width: 200px;
+    height: 200px;
+}
+div.name{
+    color: yellow;
+    margin-left: 20px;
+    float: left;
+    width: 350px;
+    height: 40px;
+}
+div.kelas{
+    color: yellow;
+    margin-left: 20px;
+    float: left;
+    width: 350px;
+    height: 40px;
+}
+div.bday{
+    color: white;
+    margin-left: 20px;
+    float: left;
+    width: 350px;
+    height: 40px;
+}
+div.edu{
+    color: yellow;
+    margin-left: 20px;
+    float: left;
+    width: 350px;
+    height: 40px;
+}
+div.edulist{
+    color: yellow;
+    margin-left: 40px;
+    float: left;
+    width: 350px;
+    height: 40px;
+}
+h2.judul{
+    
+    color: yellow;
+}
+div.profil{
+    background-color: rgb(26, 28, 29);
+    border-radius: 3%;
+    width: 618px;
+    height: 300px;
+}
+h2.judul2{
+    color: white;
+}
+div.profil2{
+    background-color: rgb(26, 28, 29);
+    border-radius: 3%;
+    width: 618px;
+    height: 300px;
+}
+div.inter{
+    color: yellow;
+    margin-left: 100px;
+    float: left;
+    width: 350px;
+    height: 40px;
+}

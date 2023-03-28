@@ -1,0 +1,72 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#game {
+  width: 800px;
+  height: 500px;
+  border: 1px solid black;
+  overflow: hidden;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  top: -200px;
+}
+h1 {
+    margin-top: 20px;
+    text-align: center;
+}
+#chara {
+  width: 100px;
+  height: 100px;
+  background: url(../img/anime.png);
+  position: relative;
+  top: 400px;
+}
+
+.ngajleng {
+  animation: loncat 300ms infinite;
+}
+
+@keyframes loncat {
+  0% {
+    top: 350px;
+  }
+  30% {
+    top: 300px;
+  }
+  70% {
+    top: 300px;
+  }
+  90% {
+    top: 300px;
+  }
+  100% {
+    top: 350px;
+  }
+}
+
+#kaktus {
+  width: 20px;
+  height: 80px;
+  background: url(../img/kaktus-burik.png);
+  position: relative;
+  top: 350px;
+  left: 800px;
+  animation: animeysyong 1s infinite linear;
+}
+
+@keyframes animeysyong {
+  0% {
+    left: 800px;
+  }
+  100% {
+    left: -40px;
+  }
+}

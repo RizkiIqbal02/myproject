@@ -1,0 +1,91 @@
+
+
+{
+    "mahasiswa": [{
+        "nim": "21051010",
+        "nama": "M.Syarifudin",
+        "alamat_asal": "Benda",
+        "foto": "img/boy.png",
+        "jk": "Laki - laki"
+    }, {
+        "nim": "21051113",
+        "nama": "Rizki Iqbal Muladi",
+        "alamat_asal": "Bandung",
+        "foto": "img/boy.png",
+        "jk": "Laki - laki"
+    }, {
+        "nim": "21051057",
+        "nama": "Muhammad Ikhsanudin",
+        "alamat_asal": "Bogor",
+        "foto": "img/boy.png",
+        "jk": "Laki - laki"
+    }, {
+        "nim": "21051055",
+        "nama": "M.Dimas Anwar Maulana",
+        "alamat_asal": "Bogor",
+        "foto": "img/boy.png",
+        "jk": "Laki - laki"
+    }, {
+        "nim": "21051105",
+        "nama": "Muhammad Rizqi Suhada",
+        "alamat_asal": "Bandung",
+        "foto": "img/boy.png",
+        "jk": "Laki - laki"
+    }, {
+        "nim": "21051068",
+        "nama": "Nanda Aulia Setiawan",
+        "alamat_asal": "Bogor",
+        "foto": "img/boy.png",
+        "jk": "Laki - laki"
+    }, {
+        "nim": "21051019",
+        "nama": "Sahrul Maulana",
+        "alamat_asal": "Nagrak",
+        "foto": "img/boy.png",
+        "jk": "Laki - laki"
+    }, {
+        "nim": "21051044",
+        "nama": "Ghaida Sandie Hayatus Sahla",
+        "alamat_asal": "Bogor",
+        "foto": "img/girl.png",
+        "jk": "Perempuan"
+    }, {
+        "nim": "21051027",
+        "nama": "Consinta Margaretha Bhei",
+        "alamat_asal": "Bogor",
+        "alamat_mlg": "Kost Putri Biru Langit",
+        "foto": "img/girl.png",
+        "jk": "Perempuan"
+    }, {
+        "nim": "21051109",
+        "nama": "Neneng Yuli Purbayanti",
+        "alamat_asal": "Nyalindung",
+        "foto": "img/girl.png",
+        "jk": "Perempuan"
+    }, {
+        "nim": "21051111",
+        "nama": "Nuri Maladewi",
+        "alamat_asal": "Bandung",
+        "foto": "img/girl.png",
+        "jk": "Perempuan"
+    }, {
+        "nim": "21051112",
+        "nama": "Ratu Agitha Sandesti Rohiman",
+        "alamat_asal": "Bandung",
+        "foto": "img/girl.png",
+        "jk": "Perempuan"
+    }, {
+        "nim": "21051028",
+        "nama": "Destria Al-Desyar",
+        "alamat_asal": "Bogor",
+        "foto": "img/girl.png",
+        "jk": "Perempuan"
+    }, {
+        "nim": "21051024",
+        "nama": "Yolanda Putri Yani",
+        "alamat_asal": "Surade",
+        "foto": "img/girl.png",
+        "jk": "Perempuan"
+    }]
+}
+

@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*, 
+*::before, 
+*::after {
+    box-sizing: border-box;
+}
+body {
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.container {
+    display: grid;
+    background: aqua;
+    margin: auto;
+    padding: 10px;
+    grid-template-columns: 70px 70px 70px 70px 70px 70px 70px 70px 70px 70px;
+    grid-template-rows: 70px 70px 70px 70px 70px 70px 70px 70px 70px 70px;
+    justify-content: center;
+    gap: 2px;
+}
+
+.boxes, .boxes2 {
+    width: 70px;
+    height: 70px;
+    background-color: aquamarine;
+    border: 2px solid;
+    margin: auto;
+    position: relative;
+}
+
+.boxes2 {
+    flex-direction: row-reverse;
+}
+.dot {
+    position: absolute;
+    margin: auto;
+    left: 25%;
+    top: 25%;
+    width: 50%;
+    height: 50%;
+    background: tomato;
+    border-radius: 50%;
+    display: none;
+    /* animation: anim 0.5s linear forwards; */
+}
+
+@keyframes anim {
+    0% {
+        width: 50%;
+        height: 50%;
+    }
+    100% {
+        background: transparent;
+    }
+}
+
+.show {
+    display: block;
+    /* transition: 2s; */
+}
+.box1 .dot {
+    /* background: aqua; */
+}
+
+
+.dadu {
+    display: flex;
+    justify-content: center;
+    width: 25%;
+    height: 25%;
+    color: black;
+    font-size: 50px;
+    text-transform: uppercase;
+    background: aqua;
+    align-self: center;
+    align-content: center;
+    padding: 10px;
+    cursor: pointer;
+}

@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to My Profile</title>
+    <link rel="icon" href="images/logo.png">
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,500;0,600;0,700;0,800;0,900;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=IBM+Plex+Sans:wght@200;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stylelist.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="toggle">
+                <i class="bx bx-chevron-right"></i>
+            </div>
+    
+            <div class="logo">
+                <img src="images/logo.png" alt="...">
+                <h3>Rizki Iqbal Muladi</h3>
+            </div>
+    
+            <nav>
+    
+                <div class="nav-title">
+                    Shortcut
+                </div>
+    
+                <ul>
+                    <li class="nav-item active" onclick="location.href = '#profileeee'">
+                        <i class="bx bxs-face"></i>
+                        <span>Profile</span>
+                    </li>
+                    <li class="nav-item" onclick="location.href = '#projectttt'">
+                        <i class='bx bxs-file-js'></i>
+                        <span>Project</span>
+                    </li>
+                    <li class="nav-item" onclick="location.href = '#skillssss'">
+                        <i class='bx bx-collapse-horizontal'></i>
+                        <span>Skills</span>
+                    </li>
+                    <li class="nav-item" onclick="location.href = '#contactttt'">
+                        <i class='bx bx-message-dots'></i>
+                        <span>Contact</span>
+                    </li>
+                </ul>
+    
+                <hr>
+    
+                <div class="nav-title">
+                    Social Media
+                </div>
+    
+                <ul>
+                    <li class="nav-item">
+                        <i class='bx bxl-facebook-circle' ></i>
+                        <span>Facebook</span>
+                    </li>
+                    <li class="nav-item">
+                        <i class='bx bxl-instagram-alt'></i>
+                        <span>Instagram</span>
+                    </li>
+                </ul>
+    
+            </nav>
+    
+        </div>
+        <div id="profileeee" class="profil-area">
+            <div class="titleP">
+                <h1 id="projectShow">Profile</h1>
+            </div>
+            <div id="about" class="left card">
+                <div class="close" onclick="hilang()"><span>&nbspX&nbsp</span> </div>
+                <h3>About Me</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus voluptate dignissimos alias corporis animi nihil recusandae aliquid officia magnam, dolorum expedita nostrum magni et in aliquam, quisquam rem obcaecati. Ipsa qui dolore repellendus sed numquam. Vel quod cum reprehenderit sapiente natus aliquam culpa a doloribus est earum! Culpa, quae eveniet.</p>
+            </div>
+            <div class="card">
+                <div class="lines"></div>
+                <div class="imgBx">
+                    <img src="images/pp.jpg" alt="">
+                </div>
+                <div class="content">
+                    <div class="details">
+                        <h2>Rizki Iqbal Muladi <br><span>Noob Programmer</span></h2>
+                        <div class="data">
+                            <h3>1<br><span>Project</span></h3>
+                            <h3>2<br><span>Language</span></h3>
+                            <h3>21.290<br><span>Follower</span></h3>
+                        </div>
+                        <div class="actionBtn">
+                            <button onclick="muncul()">About</button>
+                            <button>Contact</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="about2" class="right card">
+                <div class="close" onclick="hilang()"><span>&nbspX&nbsp</span> </div>
+                <h3>Education</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus voluptate dignissimos alias corporis animi nihil recusandae aliquid officia magnam, dolorum expedita nostrum magni et in aliquam, quisquam rem obcaecati. Ipsa qui dolore repellendus sed numquam. Vel quod cum reprehenderit sapiente natus aliquam culpa a doloribus est earum! Culpa, quae eveniet.</p>
+                
+            </div>
+            
+        </div>
+        
+        <div id="projectttt" class="project-area">
+            <div class="titleP">
+                <h1 id="projectShow">Project</h1>
+            </div>
+            <div class="boxp1">
+                <div class="kontener">
+                    <h1 class="judulp">Login</h1>
+                    <p class="contentp">Membuat sebuah halaman yang berisi form yang memungkinkan kita dapat mengisikan username dan password dan akan diarahkan pada halaman tertentu</p>
+                    <input class="klikp" type=button onClick="location.href='projects/login.html'"
+ value='Coba sekarang'>
+                </div>
+            </div>
+            <div class="boxp2">
+                <div class="kontener">
+                    <h1 class="judulp">Kertas Gunting Batu</h1>
+                    <p class="contentp">Halaman ini berisi sebuah arena kertas, gunting, batu yang memungkinkan anda bermain dengan cara memilih salah satu dari tombol tersebut</p>
+                    <input class="klikp" type=button onClick="location.href='projects/kgb.html'"
+ value='Coba sekarang'>
+                </div>
+            </div>
+            <div class="boxp3">
+                <div class="kontener">
+                    <h1 class="judulp">Kalkulator</h1>
+                    <p class="contentp">Berisi sebuah halaman yang terdapat sebuah fungsi kalkulator sederhana, dapat menjumlahkan, mengurangi, dll sesuai dengan perintah yang kita lakukan</p>
+                    <input class="klikp" type=button onClick="location.href='projects/tambah.html'"
+ value='Coba sekarang'>
+                </div>
+            </div>
+            <!-- <div class="slider">
+                <div class="layer" id="gambar-1"></div>
+                <div class="layer" id="gambar-2"></div>
+                <div class="layer" id="gambar-3"></div>
+                <div class="slider-items">
+                    
+                    <a href=""><img class="slider-item" src="images/01.jpg" alt="..."></a>
+                    
+                    <a href=""><img class="slider-item" src="images/02.jpg" alt="..."></a>
+                    <a href=""><img class="slider-item" src="images/03.jpg" alt="..."></a>
+                </div>
+        
+                <div class="slider-controls">
+                    <span class="bx bxs-chevron-left prev" onclick="changeSlide(-1)"></span>
+                    <span class="bx bxs-chevron-right next" onclick="changeSlide(1)"></span>
+                </div>
+        
+                <div class="slider-indicators">
+                    <span onclick="moveTo(1)"></span>
+                    <span onclick="moveTo(2)"></span>
+                    <span onclick="moveTo(3)"></span>
+                </div>
+        
+                <div class="slider-content">
+                    <h3>Kertas Gunting Batu</h3>
+                    <h3>Green Valley</h3>
+                    <h3>Lake Reflection</h3>
+                </div>
+            </div> -->
+        </div>
+        <div id="skillssss" class="skills">
+            <div class="titleP">
+                <h1 id="projectShow">Skills</h1>
+            </div>
+
+            <div class="skill-card">
+                <div class="icon-skill">
+                    <h1><i class='bx bxl-java'></i></h1>
+                </div>
+                <br>
+                <div class="contskill">
+                    <h4 class="name-skill">Java</h4>
+                    <br>
+                    <p class="desc">
+                        Java adalah Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus, delectus.
+                    </p>
+                </div>
+            </div>
+            <div class="skill-card">
+                <div class="icon-skill">
+                    <h1><i class='bx bxl-javascript' ></i></h1>
+                </div>
+                <br>
+                <div class="contskill">
+                    <h4 class="name-skill">Javascript</h4>
+                    <br>
+                    <p class="desc">
+                        Javascript adalah Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus, delectus.
+                    </p>
+                </div>
+            </div>
+            <div class="skill-card">
+                <div class="icon-skill">
+                    <h1><i class='bx bxs-file-html' ></i></h1>
+                </div>
+                <br>
+                <div class="contskill">
+                    <h4 class="name-skill">Html</h4>
+                    <br>
+                    <p class="desc">
+                        Html adalah Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus, delectus.
+                    </p>
+                </div>
+            </div>
+            <div class="skill-card">
+                <div class="icon-skill">
+                    <h1><i class='bx bxs-file-css' ></i></h1>
+                </div>
+                <br>
+                <div class="contskill">
+                    <h4 class="name-skill">CSS</h4>
+                    <br>
+                    <p class="desc">
+                        CSS adalah Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus, delectus.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div id="contactttt" class="contact">
+            <div class="titleP">
+                <h1 id="projectShow">Contact</h1>
+            </div>
+            <h1 class="judulkon">Contact Me</h1>
+            <div class="garisss"></div>
+            <form action="index.html" class="contactus" method="post">
+                <input type="text" class="inputkon" placeholder="Your Name">
+                <input type="email" class="inputkon" placeholder="Email">
+                <input type="number" class="inputkon" placeholder="Your Phone">
+                <textarea class="inputkon" placeholder="Type message"></textarea>
+                <input type="submit" class="inputbut" value="send">
+            </form>
+        </div>
+        <div class="bubbles">
+                <span style="--i:11;"></span>
+                <span style="--i:12;"></span>
+                <span style="--i:13;"></span>
+                <span style="--i:23;"></span>
+                <span style="--i:22;"></span>
+                <span style="--i:14;"></span>
+                <span style="--i:15;"></span>
+                <span style="--i:17;"></span>
+                <span style="--i:19;"></span>
+                <span style="--i:16;"></span>
+                <span style="--i:18;"></span>
+                <span style="--i:20;"></span>
+                <span style="--i:26;"></span>
+                <span style="--i:27;"></span>
+                <span style="--i:21;"></span>
+                <span style="--i:34;"></span>
+                <span style="--i:24;"></span>
+                <span style="--i:14;"></span>
+                <span style="--i:14;"></span>
+                <span style="--i:34;"></span>
+                <span style="--i:19;"></span>
+                <span style="--i:10;"></span>
+                <span style="--i:10;"></span>
+                <span style="--i:9;"></span>
+                <span style="--i:4;"></span>
+                <span style="--i:20;"></span>
+                <span style="--i:26;"></span>
+                <span style="--i:27;"></span>
+                <span style="--i:21;"></span>
+                <span style="--i:34;"></span>
+                <span style="--i:24;"></span>
+                <span style="--i:14;"></span>
+                <span style="--i:14;"></span>
+                <span style="--i:34;"></span>
+                <span style="--i:19;"></span>
+                <span style="--i:10;"></span>
+                <span style="--i:9;"></span>
+                <span style="--i:21;"></span>
+                <span style="--i:34;"></span>
+                <span style="--i:24;"></span>
+                <span style="--i:14;"></span>
+                <span style="--i:14;"></span>
+                <span style="--i:34;"></span>
+                <span style="--i:19;"></span>
+                <span style="--i:10;"></span>
+                <span style="--i:34;"></span>
+                <span style="--i:19;"></span>
+                <span style="--i:9;"></span>
+                <span style="--i:4;"></span>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,104 @@
+body {
+    background-color: rgb(93, 99, 102);
+    margin: 0;
+    color: rgb(161, 161, 37);
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+
+    font-family: 'Quicksand' , sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50px 1fr 1fr 100px;
+
+    gap: 10px;
+
+    padding: 10px;
+    box-sizing: border-box;
+}
+div {
+    background-color: rgb(26, 28, 29);
+}
+.container div {
+    padding: 10px;
+    border: 1px solid grey;
+}
+
+.header, .judul, .weap1, .weap2 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.header {
+    justify-content: center;
+}
+.content-large {
+    grid-row-start: 2;
+    grid-row-end: span 2;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.footer {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.content-large {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(3 , 1fr);
+}
+.footer{
+    align-content: center;
+    justify-content: center;
+}
+.hasil {
+    font-size: 50px;
+}
+.weap1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+.gunting h3, .kertas h3, .batu h3{
+    font-size: 100px;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    cursor: pointer;
+    /* border-radius: 100%;
+    background-size: cover;
+    background-position: 0px;
+    background-image: url(kertas.png);
+    background-repeat: no-repeat; */
+}
+
+.content-small {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(3 , 1fr);
+}
+.pilihan-Comp, .pilihan-Orang {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    text-align: center;
+    /* display: none; */
+    box-sizing: border-box;
+    font-size: 30px;
+}
+#kgb:hover {
+    border: 1px solid yellow;
+    cursor: pointer;
+    opacity: 90%;
+}
+#kgb:active {
+    background-color: yellow;
+    opacity: 50%;
+}

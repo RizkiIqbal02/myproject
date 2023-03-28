@@ -1,0 +1,22 @@
+body{
+    text-align: center; /*membuat teks menjadi rata tengah*/
+    background-color: lightblue; /*mengubah bacground keseluruhan*/
+}
+h1 {
+    margin: auto; /*membuat ruang pada konten*/
+    color: white; 
+    font-family: 'Courier New', Courier, monospace; /*mengubah font ke font family dan browser akan merubah ke salah satu style nya*/
+}
+
+p {
+    background-color: aqua;
+    height: auto; /*mengubah tinggi dari tag p*/
+    width: 500px; /*mengubah lebar dari tag p*/
+    padding: 10px; /*mengubah jarak padding (ke atas, bawah, kiri, kanan, menjadi 10px*/
+    position: absolute; /*posisi elemennya tetap*/
+}
+.p2 {
+    border: solid; /*memberi border*/
+    background-color: blueviolet;
+    z-index: 1; /*membuat tampilan depan atau belakang*/
+}

@@ -1,0 +1,28 @@
+*{
+    color: white;
+    background-color: brown;
+    align-items: center;
+    text-align: center;
+}
+.pilihan-Comp , .🖐 , .🖖, .✊{
+    margin: auto;
+    width: 100px;
+    height: 100px;
+}
+
+.🖐 , .🖖, .✊ {
+    cursor: pointer;
+    display: inline-block;
+    margin: 20px;
+}
+
+span:hover {
+    font-size: 90px;
+}
+span:active {
+    opacity: 0;
+}
+span , .pilihan-Comp{
+    font-size: 70px;
+    background: transparent;
+}

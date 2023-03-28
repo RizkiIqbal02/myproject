@@ -1,0 +1,143 @@
+body {
+  background-color: rgb(26, 28, 29);
+  margin: 0;
+  color: rgb(161, 161, 37);
+}
+
+.container {
+  display: grid; 
+  grid-auto-flow: column; 
+  grid-template-columns: 1fr 1fr 1fr 1fr; 
+  grid-template-rows: 100px 0.3fr 200px; 
+  gap: 1px 5px; 
+  grid-template-areas: 
+    "judul judul judul judul"
+    ". game game ."
+    ". tombol tombol ."; 
+}
+
+.game {
+  overflow: hidden;
+  grid-area: game;
+  width: 800px;
+  height: 500px;
+  background: url(../img/road.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 10px;
+}
+
+.judul {
+  display: flex;
+  grid-area: judul;
+  border: 1px solid white;
+  background: rgb(167, 167, 33);
+  justify-content: center;
+}
+
+.tombol {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 5px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "reset jump"
+    "reset jump"
+    "reset jump";
+  grid-area: tombol;
+  width: 800px;
+  height: 200px;
+}
+
+.reset {
+  grid-area: reset;
+  background: rgb(167, 167, 33);
+  /* border: 1px solid white; */
+}
+
+.jump {
+  grid-area: jump;
+  background: rgb(167, 167, 33);
+  /* border: 1px solid white; */
+}
+
+#game {
+  width: 800px;
+  height: 500px;
+  border: 1px solid black;
+  overflow: hidden;
+}
+
+#chara {
+  width: 100px;
+  height: 100px;
+  background: url(../img/anime.png);
+  position: relative;
+  top: 400px;
+}
+.count {
+    text-align: center;
+}
+
+.start {
+    text-align: center;
+    line-height: 150px;
+    color: black;
+}
+.start:hover{
+    opacity: 0.5;
+}
+
+.ngajleng {
+  animation: loncat 300ms infinite;
+}
+.judul-game {
+  color: black;
+  margin-left: -120px;
+}
+
+/* animasi lompat */
+@keyframes loncat {
+  0% {
+    top: 350px;
+  }
+  30% {
+    top: 300px;
+  }
+  70% {
+    top: 300px;
+  }
+  90% {
+    top: 300px;
+  }
+  100% {
+    top: 350px;
+  }
+}
+
+/* mengatur posisi kaktus */
+#kaktus {
+  width: 20px;
+  height: 80px;
+  background: url(../img/kaktus-burik.png);
+  position: relative;
+  top: 350px;
+  left: 800px;
+  
+}
+
+/* menambahkan animasi pada kaktus */
+.start {
+    animation: animate 1s infinite linear;
+}
+
+/* animasi untuk membuat kaktus bergerak ke kiri */
+@keyframes animate {
+  0% {
+    left: 800px;
+  }
+  100% {
+    left: -40px;
+  }
+}
