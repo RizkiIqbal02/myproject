@@ -15,14 +15,14 @@
 <a href="https://www.facebook.com/iqbal.muladi.3/"><img title="Author" src="https://img.shields.io/badge/facebook-iqbal-blue.svg?style=for-the-badge&logo=facebook"></a>
 <a href="https://wa.me/089513081384"><img title="Author" src="https://img.shields.io/badge/whatsapp-iqbal-blue.svg?style=for-the-badge&logo=whatsapp"></a>
 </p>
-<a href="https://github.com/RizkiIqbal02/Sullivan-MD"><img title="Forks" src="https://img.shields.io/github/forks/Fangzbotz2007/KannaBOT-MD?label=Forks&color=blue&style=flat-square"></a>
-<a href="https://github.com/RizkiIqbal02/Sullivan-MD"><img title="Watchers" src="https://img.shields.io/github/watchers/Fangzbotz2007/KannaBOT-MD?label=Watchers&color=green&style=flat-square"></a>
-<a href="https://github.com/RizkiIqbal02/Sullivan-MD"><img title="Stars" src="https://img.shields.io/github/stars/Fangzbotz2007/KannaBOT-MD?label=Stars&color=yellow&style=flat-square"></a>
-<a href="https://github.com/RizkiIqbal02/Sullivan-MD"><img title="Contributors" src="https://img.shields.io/github/contributors/Fangzbotz2007/KannaBOT-MD?label=Contributors&color=blue&style=flat-square"></a>
-<a href="https://github.com/RizkiIqbal02/Sullivan-MD"><img title="Issues" src="https://img.shields.io/github/issues/Fangzbotz2007/KannaBOT-MD?label=Issues&color=success&style=flat-square"></a>
-<a href="https://github.com/RizkiIqbal02/Sullivan-MD"><img title="Issues" src="https://img.shields.io/github/issues-closed/Fangzbotz2007/KannaBOT-MD?label=Issues&color=red&style=flat-square"></a>
-<a href="https://github.com/RizkiIqbal02/Sullivan-MD"><img title="Pull Request" src="https://img.shields.io/github/issues-pr/Fangzbotz2007/KannaBOT-MD?label=PullRequest&color=success&style=flat-square"></a>
-<a href="https://github.com/RizkiIqbal02/"><img title="Follow" src="https://img.shields.io/github/issues-pr-closed/Fangzbotz2007/KannaBOT-MD?label=Follow&color=red&style=flat-square"></a>
+<a href="https://github.com/RizkiIqbal02/myproject"><img title="Forks" src="https://img.shields.io/github/forks/RizkiIqbal02/myproject?label=Forks&color=blue&style=flat-square"></a>
+<a href="https://github.com/RizkiIqbal02/myproject"><img title="Watchers" src="https://img.shields.io/github/watchers/RizkiIqbal02/myproject?label=Watchers&color=green&style=flat-square"></a>
+<a href="https://github.com/RizkiIqbal02/myproject"><img title="Stars" src="https://img.shields.io/github/stars/RizkiIqbal02/myproject?label=Stars&color=yellow&style=flat-square"></a>
+<a href="https://github.com/RizkiIqbal02/myproject"><img title="Contributors" src="https://img.shields.io/github/contributors/RizkiIqbal02/myproject?label=Contributors&color=blue&style=flat-square"></a>
+<a href="https://github.com/RizkiIqbal02/myproject"><img title="Issues" src="https://img.shields.io/github/issues/RizkiIqbal02/myproject?label=Issues&color=success&style=flat-square"></a>
+<a href="https://github.com/RizkiIqbal02/myproject"><img title="Issues" src="https://img.shields.io/github/issues-closed/RizkiIqbal02/myproject?label=Issues&color=red&style=flat-square"></a>
+<a href="https://github.com/RizkiIqbal02/myproject"><img title="Pull Request" src="https://img.shields.io/github/issues-pr/RizkiIqbal02/myproject?label=PullRequest&color=success&style=flat-square"></a>
+<a href="https://github.com/RizkiIqbal02/"><img title="Follow" src="https://img.shields.io/github/issues-pr-closed/RizkiIqbal02/myproject?label=Follow&color=red&style=flat-square"></a>
 
 ---------
 
